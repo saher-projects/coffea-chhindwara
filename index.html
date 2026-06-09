@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffea Chhindwara — Brewed to Perfection</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+</head>
+<body>
+
+  <div id="nav-container"></div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <span class="hero-eyebrow">Brewed to perfection</span>
+      <h1 class="hero-title">
+        <span class="word-sip">SIP.</span><br>
+        <span class="word-relax">RELAX.</span><br>
+        <span class="word-repeat">REPEAT.</span>
+      </h1>
+      <p class="hero-subtitle">At Coffea Chhindwara, every cup is crafted to bring you comfort, flavor & happiness.</p>
+      <div class="hero-buttons">
+        <a href="menu.html" class="btn-primary">🍃 Explore Menu</a>
+        <a href="contact.html" class="btn-secondary">📍 Visit Our Café</a>
+      </div>
+    </div>
+
+    <div class="hero-image-wrap">
+      <img class="hero-cup"
+        src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=500&h=600&fit=crop&crop=center"
+        alt="Coffea premium coffee cup"
+      />
+    </div>
+
+    <div class="hero-badges">
+      <div class="badge">
+        <div class="badge-icon">🌿</div>
+        <div class="badge-text">Premium Ingredients</div>
+      </div>
+      <div class="badge">
+        <div class="badge-icon">✨</div>
+        <div class="badge-text">Perfect Ambience</div>
+      </div>
+      <div class="badge">
+        <div class="badge-icon">🎵</div>
+        <div class="badge-text">Good Music Good Vibes</div>
+      </div>
+      <div class="badge">
+        <div class="badge-icon">❤️</div>
+        <div class="badge-text">Made with Love</div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="scroll-mouse"></div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- INFO BAR -->
+  <div class="info-bar">
+    <div class="info-address">
+      <h4>📍 Visit Our Café</h4>
+      <p>4th Flr, Diwedi Tower,<br>Parasia Rd, Near by Claris Hospital,<br>Vishnu Nagar, Chhindwara (M.P.)</p>
+      <a href="contact.html" class="info-btn">Get Directions →</a>
+    </div>
+    <div class="info-divider"></div>
+    <div class="info-feature">
+      <span class="feat-icon">🫘</span>
+      <strong>Quality Beans</strong>
+      <span>Sourced from the best farms</span>
+    </div>
+    <div class="info-feature">
+      <span class="feat-icon">👨‍🍳</span>
+      <strong>Expert Baristas</strong>
+      <span>Passionate about perfect brew</span>
+    </div>
+    <div class="info-feature">
+      <span class="feat-icon">🌿</span>
+      <strong>Hygienic & Safe</strong>
+      <span>Clean environment for happy moments</span>
+    </div>
+    <div class="info-divider"></div>
+    <div class="info-hours">
+      <h4>🕐 Opening Hours</h4>
+      <p>Mon – Sun</p>
+      <p style="font-size:1rem;font-weight:700;color:#2d6a2f;">9:00 AM – 10:00 PM</p>
+    </div>
+  </div>
+
+  <!-- SPECIALS -->
+  <section class="section-specials">
+    <div class="section-header">
+      <div>
+        <span class="section-eyebrow">Our Specials</span>
+        <h2 class="section-title">Handcrafted for <em>you</em></h2>
+      </div>
+      <a href="menu.html" class="view-all-btn">View Full Menu →</a>
+    </div>
+
+    <div class="menu-grid">
+      <div class="menu-card">
+        <img class="menu-card-img" src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&h=300&fit=crop" alt="Cappuccino" />
+        <div class="menu-card-body">
+          <h3>Cappuccino</h3>
+          <p>Classic blend with a perfect froth.</p>
+          <div class="menu-card-footer">
+            <span class="menu-price">₹150</span>
+            <button class="add-btn" onclick="addToCart('Cappuccino', 150)">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img class="menu-card-img" src="https://images.unsplash.com/photo-1534778101976-62847782c213?w=400&h=300&fit=crop" alt="Hazelnut Mocha" />
+        <div class="menu-card-body">
+          <h3>Hazelnut Mocha</h3>
+          <p>A chocolaty delight with hazelnut twist.</p>
+          <div class="menu-card-footer">
+            <span class="menu-price">₹180</span>
+            <button class="add-btn" onclick="addToCart('Hazelnut Mocha', 180)">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img class="menu-card-img" src="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=400&h=300&fit=crop" alt="Caramel Frappe" />
+        <div class="menu-card-body">
+          <h3>Caramel Frappe</h3>
+          <p>Sweet, creamy & absolutely delicious.</p>
+          <div class="menu-card-footer">
+            <span class="menu-price">₹190</span>
+            <button class="add-btn" onclick="addToCart('Caramel Frappe', 190)">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img class="menu-card-img" src="https://images.unsplash.com/photo-1517959105821-eaf2591984d2?w=400&h=300&fit=crop" alt="Cold Coffee" />
+        <div class="menu-card-body">
+          <h3>Cold Coffee</h3>
+          <p>Chilled, creamy & oh-so-refreshing.</p>
+          <div class="menu-card-footer">
+            <span class="menu-price">₹160</span>
+            <button class="add-btn" onclick="addToCart('Cold Coffee', 160)">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img class="menu-card-img" src="https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400&h=300&fit=crop" alt="Hot Chocolate" />
+        <div class="menu-card-body">
+          <h3>Hot Chocolate</h3>
+          <p>Rich, smooth & comforting.</p>
+          <div class="menu-card-footer">
+            <span class="menu-price">₹140</span>
+            <button class="add-btn" onclick="addToCart('Hot Chocolate', 140)">+</button>
+          </div>
+        </div>
+      </div>
+      <div class="menu-card">
+        <img class="menu-card-img" src="https://images.unsplash.com/photo-1514481538271-cf9f99627ab4?w=400&h=300&fit=crop" alt="Matcha Latte" />
+        <div class="menu-card-body">
+          <h3>Matcha Latte</h3>
+          <p>Earthy, calm & utterly soothing.</p>
+          <div class="menu-card-footer">
+            <span class="menu-price">₹180</span>
+            <button class="add-btn" onclick="addToCart('Matcha Latte', 180)">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section-about">
+    <div class="about-image-side">
+      <img class="about-img" src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&h=600&fit=crop&crop=center" alt="Coffea Chhindwara café interior" />
+      <div class="about-img-overlay">
+        <div class="about-logo-overlay">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=80&h=80&fit=crop" alt="Logo" style="width:80px;border-radius:50%;" />
+          <p>COFFEA<br>CHHINDWARA</p>
+        </div>
+      </div>
+      <!-- Spinning badge -->
+      <div class="spinning-badge">
+        <svg viewBox="0 0 80 80" width="80" height="80">
+          <defs>
+            <path id="circle-text" d="M 40,40 m -27,0 a 27,27 0 1,1 54,0 a 27,27 0 1,1 -54,0" />
+          </defs>
+          <text font-size="8" fill="#5db347" font-family="Poppins, sans-serif" font-weight="600" letter-spacing="2">
+            <textPath href="#circle-text">Brewed with Love • Every Day •</textPath>
+          </text>
+        </svg>
+        <span class="center-icon">☕</span>
+      </div>
+    </div>
+    <div class="about-content-side">
+      <span class="section-eyebrow">About Coffea</span>
+      <h2 class="about-title">More than just <span>coffee</span></h2>
+      <p class="about-desc">Coffea Chhindwara is more than a café, it's an emotion. From handpicked beans to the perfect brew, we create experiences that make you feel right at home.</p>
+      <div class="about-stats">
+        <div class="about-stat">
+          <span class="stat-icon">🫘</span>
+          <strong>100% Premium Beans</strong>
+        </div>
+        <div class="about-stat">
+          <span class="stat-icon">☕</span>
+          <strong>Expert Baristas</strong>
+        </div>
+        <div class="about-stat">
+          <span class="stat-icon">🛋️</span>
+          <strong>Cozy Ambience</strong>
+        </div>
+        <div class="about-stat">
+          <span class="stat-icon">😊</span>
+          <strong>Happy Customers</strong>
+        </div>
+      </div>
+      <a href="about.html" class="btn-dark">Know More About Us →</a>
+    </div>
+  </section>
+
+  <!-- INSTAGRAM -->
+  <section class="section-instagram">
+    <div class="instagram-header">
+      <h2 class="instagram-title">Follow Us On <span>Instagram</span> 📷</h2>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span class="instagram-handle">@coffeachhindwara</span>
+        <a href="#" class="view-all-btn">View All →</a>
+      </div>
+    </div>
+    <div class="instagram-grid">
+      <div class="insta-item">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=300&h=300&fit=crop" alt="Instagram post" />
+      </div>
+      <div class="insta-item">
+        <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?w=300&h=300&fit=crop" alt="Instagram post" />
+      </div>
+      <div class="insta-item">
+        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=300&h=300&fit=crop" alt="Instagram post" />
+      </div>
+      <div class="insta-item">
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=300&h=300&fit=crop" alt="Instagram post" />
+      </div>
+      <div class="insta-item">
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=300&h=300&fit=crop" alt="Instagram post" />
+      </div>
+      <div class="insta-item">
+        <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=300&h=300&fit=crop" alt="Instagram post" />
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-container"></div>
+
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
